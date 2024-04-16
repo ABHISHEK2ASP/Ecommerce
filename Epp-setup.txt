@@ -1,0 +1,21 @@
+First extract tar file 
+
+tar -xvf EPPClient_ubuntu_22.04_v2006_x86_64.tar.gz
+cd EPPClient_ubuntu_22.04_v2006_x86_64
+vim option.ini
+
+and paste this
+
+New IP 
+ws_server=103.99.203.149
+ws_port=443
+DepartmentCode=defdep
+
+ws_server=172.24.20.176 
+ws_port=443
+DepartmentCode=defdep
+
+run ./install.sh
+
+
+
